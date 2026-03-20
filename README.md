@@ -42,6 +42,7 @@ You must include a file that stores:
 - events or objects on the board
 
 Example format:
+
 3: Player1
 
 4: Player2
