@@ -1,0 +1,15 @@
+Game Concept: A simple linear board where two players (Player1 and Player2) move forward space by space.
+
+Rules: Players take turns moving 1 space forward per click. The current state is saved to a file after every move.
+
+Data Storage: Data is stored in events.txt using a Position: Entity format.
+
+Functions:
+
+load_game_state: Parses the text file into a dictionary.
+
+save_game_state: Updates the text file with the current board positions.
+
+draw_board: Uses graphics.py to visually represent the player locations.
+
+move_player: Handles the math for updating coordinates and switching the active turn.
